@@ -1,0 +1,22 @@
+# Runtime dependencies for the recommendation engine (run.py + src/).
+# Verified against these exact versions on Python 3.12.5.
+# No GPU, no model download, no network access is required.
+pandas==3.0.0
+numpy==2.3.5
+scipy==1.16.0
+
+# ---------------------------------------------------------------------------
+# Paper figures only (paper/results/make_figures.py). Not needed to run the
+# engine or reproduce the CSV results.
+# matplotlib>=3.8
+#
+# NeuroFuzzy_BERT_Sentiment.ipynb only. That notebook is REFERENCE MATERIAL and
+# is not a pipeline stage: the sentiment scores are delivered to us as a
+# finished dataset. Install these only if you intend to re-run it, and use a
+# GPU runtime if you do.
+# torch>=2.0
+# transformers>=4.40
+# scikit-learn>=1.5
+# scikit-fuzzy>=0.5
+# vaderSentiment>=3.3
+# tqdm>=4.66

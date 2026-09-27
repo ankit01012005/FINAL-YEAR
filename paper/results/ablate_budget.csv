@@ -1,0 +1,4 @@
+budget,mean_gain,mean_moves,median_states,pct_of_achievable,pct_proven_optimal
+1,6.9761,2.52,12,62.27,100.0
+2,7.1006,3.26,15,64.55,100.0
+3,7.1059,3.38,15,64.64,99.5

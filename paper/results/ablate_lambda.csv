@@ -1,0 +1,6 @@
+lambda,n_pairs,pct_proven_optimal,sentiment_changed_decision_pct,mean_pct_of_achievable,employees_held_by_floor,mean_moves,median_states_evaluated,win_rate_vs_perf_only_pct,loss_rate_vs_perf_only_pct,win_rate_vs_sent_only_pct,loss_rate_vs_sent_only_pct,win_rate_vs_random_pct,loss_rate_vs_random_pct,win_rate_vs_worst_for_best_pct,loss_rate_vs_worst_for_best_pct
+0.0,200,100.0,68.0,64.69,520,3.28,15,51.0,30.0,66.0,18.5,73.5,15.5,63.0,26.0
+0.25,200,100.0,68.0,64.59,520,3.26,15,58.0,23.0,71.5,13.0,76.5,12.5,69.0,20.0
+0.5,200,100.0,68.5,64.55,520,3.26,15,68.5,0.0,78.5,0.0,82.0,0.0,77.5,0.0
+1.0,200,100.0,68.5,64.48,520,3.25,15,80.5,0.5,84.5,0.0,88.5,0.5,88.5,0.5
+2.0,200,100.0,69.5,64.38,520,3.25,15,80.5,0.5,84.5,0.0,88.5,0.5,88.5,0.5

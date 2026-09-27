@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Trained sentiment model artefacts (large; the notebook is reference-only and
+# the scores are delivered to us as a dataset, so these are never needed here)
+neurofuzzy_bert_saved/
+
+# LaTeX build products — the PDF is compiled on Overleaf
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.synctex.gz
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
