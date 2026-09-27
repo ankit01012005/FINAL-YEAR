@@ -1,16 +1,3 @@
-D:\final_year\src\pipeline.py:54: UserWarning: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  sentiment_fuzzy.csv NOT FOUND - USING A SYNTHETIC PLACEHOLDER.
-  The pipeline will run, but NO RESULT IS VALID until the real sentiment
-  scores are supplied. Every report is flagged is_placeholder=True.
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  frame, meta = sentiment_io.load_sentiment(
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  SENTIMENT IS A SYNTHETIC PLACEHOLDER.
-  Drop the real file at D:\final_year\dataset\sentiment_fuzzy.csv and re-run;
-  no code change is needed. Until then no result below is valid.
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 evaluable low-team pairs: 10,153   running: 1000
 
@@ -19,44 +6,44 @@ SWEEP SUMMARY
 ==============================================================================
 {
   "n_pairs": 1000,
-  "pct_proven_optimal": 99.8,
-  "sentiment_changed_decision_pct": 65.9,
-  "mean_pct_of_achievable": 72.28,
-  "employees_held_by_floor": 1136,
-  "mean_moves": 3.61,
-  "median_states_evaluated": 24,
+  "pct_proven_optimal": 99.9,
+  "sentiment_changed_decision_pct": 71.1,
+  "mean_pct_of_achievable": 69.06,
+  "employees_held_by_floor": 2614,
+  "mean_moves": 3.35,
+  "median_states_evaluated": 18,
   "gain_full": {
-    "mean": 7.0071,
-    "median": 4.7513,
-    "pct_improved": 84.3
+    "mean": 8.0811,
+    "median": 5.7184,
+    "pct_improved": 82.1
   },
   "gain_perf_only": {
-    "mean": 5.3978,
-    "median": 2.9228,
-    "pct_improved": 68.2
+    "mean": 4.847,
+    "median": 1.7425,
+    "pct_improved": 59.0
   },
   "gain_sent_only": {
-    "mean": 0.3234,
+    "mean": 0.2596,
     "median": 0.0,
-    "pct_improved": 42.1
+    "pct_improved": 39.4
   },
   "gain_random": {
-    "mean": -0.1057,
+    "mean": 0.1365,
     "median": 0.0,
-    "pct_improved": 45.9
+    "pct_improved": 45.2
   },
   "gain_worst_for_best": {
-    "mean": 1.018,
-    "median": 0.3163,
-    "pct_improved": 51.1
+    "mean": 2.0021,
+    "median": 0.5779,
+    "pct_improved": 53.1
   },
-  "win_rate_vs_perf_only_pct": 65.9,
+  "win_rate_vs_perf_only_pct": 71.1,
   "loss_rate_vs_perf_only_pct": 0.0,
-  "win_rate_vs_sent_only_pct": 83.7,
+  "win_rate_vs_sent_only_pct": 81.5,
   "loss_rate_vs_sent_only_pct": 0.0,
-  "win_rate_vs_random_pct": 85.0,
+  "win_rate_vs_random_pct": 80.4,
   "loss_rate_vs_random_pct": 0.0,
-  "win_rate_vs_worst_for_best_pct": 81.8,
+  "win_rate_vs_worst_for_best_pct": 77.4,
   "loss_rate_vs_worst_for_best_pct": 0.0
 }
 

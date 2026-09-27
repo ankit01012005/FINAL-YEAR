@@ -1,3 +1,12 @@
+# ===========================================================================
+# What this repository tracks
+#
+# Only what is needed to RUN the system and READ the work: run.py, src/,
+# the three required input datasets, the docs, the paper, and the generated
+# outputs. Everything excluded below still exists locally - it is kept off
+# GitHub because nothing in the live pipeline reads it.
+# ===========================================================================
+
 # Python
 __pycache__/
 *.py[cod]
@@ -8,17 +17,43 @@ venv/
 # Notebooks
 .ipynb_checkpoints/
 
-# Trained sentiment model artefacts (large; the notebook is reference-only and
-# the scores are delivered to us as a dataset, so these are never needed here)
+# --- Superseded material -----------------------------------------------------
+# Datasets and artefacts from earlier revisions of the project. README.md says
+# it plainly: nothing live reads these. ~10 MB of embeddings and retired CSVs.
+archive/
+
+# Notebooks retired in PROJECT.md rev 3 (embedding and global-cost-matrix
+# approaches, both abandoned). Kept locally as a record of what was tried.
+codes/
+
+# Reference PDFs and earlier drafts (~3 MB). Third-party papers should not be
+# redistributed, and they are not needed to run or review the system.
+docs/
+
+# --- Large inputs the pipeline does not require ------------------------------
+# The raw 86k-review corpus (14 MB). It is OPTIONAL: only
+# sentiment_build.audit_leakage() would use it, and the delivered sentiment
+# dataset already carries the reviews and ratings it needs for that test.
+employee_reviews.csv
+
+# Duplicate delivery. Byte-identical to the Capgemini file (verified: only the
+# CSV dtype of the rating columns differs) and saved under a broken filename.
+dataset/datasetsentiment_fuzzy.csv
+
+# --- Trained model artefacts -------------------------------------------------
+# The sentiment notebook is reference-only and the scores are delivered to us
+# as a dataset, so a local checkpoint is never needed here.
 neurofuzzy_bert_saved/
 
-# LaTeX build products — the PDF is compiled on Overleaf
+# --- LaTeX build products (the PDF is compiled on Overleaf) ------------------
 paper/*.aux
 paper/*.log
 paper/*.out
 paper/*.bbl
 paper/*.blg
 paper/*.synctex.gz
+paper/*.pdf
+!paper/results/*.pdf
 
 # Editor / OS
 .vscode/
